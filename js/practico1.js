@@ -69,8 +69,7 @@ Dificultad:  🟢
 */
 var numero1 = prompt("Ingrese un numero");
 var numero2 = prompt("Ingrese otro numero");
-console.log(numero1 + numero2);
-
+console.log(parseInt(numero1) + parseInt(numero2));
 
 
 
