@@ -34,6 +34,43 @@ var gradosCelsius = 10;
 var gradosFahrenheit = (gradosCelsius * 9 / 5) + 32;
 console.log(gradosFahrenheit);
 
+/*Dificultad:  🟢
+1.- Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “un mensaje”.
+*/
+alert("un mensaje");
+
+/*
+Dificultad:  🟢
+2.- Escribe un programa de una sola línea que escriba en la pantalla un texto que diga «Hello World» (document.write).
+*/
+
+document.write("Hello World");
+
+/*
+Dificultad:  🟢
+3.- Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.*/
+
+console.log(3 + 5);
+
+/*
+Dificultad:  🟢
+4.- Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga «Hola nombreUsuario»
+Ejemplo: 
+input: Coder 
+Output: Hola Coder
+*/
+var nombreUsuario = prompt("Ingrese su nombre");
+console.log("Hola " + nombreUsuario);
+
+
+/*
+Dificultad:  🟢
+5.- Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
+*/
+var numero1 = prompt("Ingrese un numero");
+var numero2 = prompt("Ingrese otro numero");
+console.log(numero1 + numero2);
+
 
 
 
